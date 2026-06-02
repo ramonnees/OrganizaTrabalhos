@@ -1,0 +1,11 @@
+### Criar um novo usuário dinamicamente (Dessa vez com outro e-mail!)
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "nome": "Carlos Silva",
+  "email": "carlos@email.com",
+  "senhaHash": "senha456"
+}
+### Listar todos os usuários para conferir
+GET http://localhost:8080/users
